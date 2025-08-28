@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us - DURAFIT FLOORING - Get Your Free Quote</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <img src="images/durafit-logo.png" alt="DURAFIT FLOORING - Precision Flooring, Lasting Quality" class="logo-img">
+            </div>
+            <ul class="nav-menu">
+                <li class="nav-item">
+                    <a href="index.html" class="nav-link">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a href="products.html" class="nav-link">Products</a>
+                </li>
+                <li class="nav-item">
+                    <a href="about.html" class="nav-link">About</a>
+                </li>
+                <li class="nav-item">
+                    <a href="gallery.html" class="nav-link">Gallery</a>
+                </li>
+                <li class="nav-item">
+                    <a href="contact.html" class="nav-link active">Contact</a>
+                </li>
+            </ul>
+            <div class="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Contact Hero Section -->
+    <section class="contact-hero">
+        <img src="images/hero-flooring.jpeg" alt="DURAFIT FLOORING Hero Background" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; object-fit: cover; z-index: 0;">
+        <div class="container">
+            <div class="contact-hero-content">
+                <h1 style="color: white !important;">Contact Us</h1>
+                <p style="color: #dddddd !important;">Get in touch for a free consultation and quote</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Information Section -->
+    <section class="contact-info-section">
+        <div class="container">
+            <div class="contact-grid">
+                <div class="contact-info-card">
+                    <div class="contact-icon">
+                        <i class="fas fa-phone"></i>
+                    </div>
+                    <h3>Phone</h3>
+                    <p>07969 868673</p>
+                    <a href="tel:07969868673" class="contact-link">Call Now</a>
+                </div>
+                                    <div class="contact-info-card">
+                        <div class="contact-icon">
+                            <i class="fas fa-envelope"></i>
+                        </div>
+                        <h3>Email</h3>
+                        <p>info@durafit.co.uk</p>
+                        <a href="mailto:info@durafit.co.uk" class="contact-link">Send Email</a>
+                    </div>
+                <div class="contact-info-card">
+                    <div class="contact-icon">
+                        <i class="fas fa-map-marker-alt"></i>
+                    </div>
+                    <h3>Location</h3>
+                    <p>North Shields<br>Tyne & Wear, UK</p>
+                    <a href="#" class="contact-link">View on Map</a>
+                </div>
+                <div class="contact-info-card">
+                    <div class="contact-icon">
+                        <i class="fas fa-clock"></i>
+                    </div>
+                    <h3>Business Hours</h3>
+                    <p>Mon-Fri: 8AM-6PM<br>Sat: 9AM-4PM</p>
+                    <span class="contact-note">Emergency calls available</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Form Section -->
+    <section class="contact-form-section">
+        <div class="container">
+            <div class="contact-content">
+                <div class="contact-form-wrapper">
+                    <h2>Get Your Free Quote</h2>
+                    <p>Fill out the form below and we'll get back to you within 24 hours with a free consultation and quote.</p>
+                    <p style="color: #666; font-size: 0.9rem; margin-bottom: 20px;">If the form doesn't work, please call us directly at <strong>07969 868673</strong> or email us at <strong>info@durafit.co.uk</strong></p>
+                    
+                    <form class="contact-form" action="https://api.web3forms.com/submit" method="POST">
+                        <input type="hidden" name="access_key" value="6e5df87e-f70a-41af-821e-c5ecf4500633">
+                        <input type="hidden" name="to_email" value="info@durafit.co.uk">
+                        <input type="hidden" name="subject" value="New Contact Form Submission - Durafit Flooring">
+                        <input type="hidden" name="from_name" value="Durafit Flooring Website">
+                        <input type="hidden" name="redirect" value="https://meek-conkies-7e66ca.netlify.app/contact.html?success=true">
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="name">Full Name *</label>
+                                <input type="text" id="name" name="name" placeholder="Your Full Name" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="email">Email Address *</label>
+                                <input type="email" id="email" name="email" placeholder="your.email@example.com" required>
+                            </div>
+                        </div>
+                        
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="phone">Phone Number</label>
+                                <input type="tel" id="phone" name="phone" placeholder="07969 868673">
+                            </div>
+                            <div class="form-group">
+                                <label for="service">Service Required *</label>
+                                <select id="service" name="service" required>
+                                    <option value="">Select a Service</option>
+                                    <option value="lvt">Luxury Vinyl Tiles</option>
+                                    <option value="ceramic">Ceramic Tiles</option>
+                                    <option value="porcelain">Porcelain Tiles</option>
+                                    <option value="stone">Stone Tiles</option>
+                                    <option value="exterior">Exterior Tiling</option>
+                                    <option value="consultation">Free Consultation</option>
+                                </select>
+                            </div>
+                        </div>
+                        
+
+                        
+                        <div class="form-group">
+                            <label for="message">Project Details *</label>
+                            <textarea id="message" name="message" placeholder="Tell us about your project, specific requirements, and any questions you have..." rows="5" required></textarea>
+                        </div>
+                        
+                        <div class="form-group checkbox-group">
+                            <input type="checkbox" id="newsletter" name="newsletter">
+                            <label for="newsletter">Subscribe to our newsletter for flooring tips and special offers</label>
+                        </div>
+                        
+                        <button type="submit" class="btn btn-primary">Send Message</button>
+                    </form>
+                </div>
+                
+                <div class="contact-sidebar">
+                    <div class="sidebar-card">
+                        <h3>Why Choose Us?</h3>
+                        <ul class="benefits-list">
+                            <li><i class="fas fa-check"></i> 30+ years of experience</li>
+                            <li><i class="fas fa-check"></i> Free consultation & quote</li>
+                            <li><i class="fas fa-check"></i> Quality guaranteed</li>
+                            <li><i class="fas fa-check"></i> Professional installation</li>
+                            <li><i class="fas fa-check"></i> Competitive pricing</li>
+                            <li><i class="fas fa-check"></i> Local expertise</li>
+                        </ul>
+                    </div>
+                    
+                    <div class="sidebar-card">
+                        <h3>Service Areas</h3>
+                        <p>We proudly serve the following areas:</p>
+                        <ul class="service-areas">
+                            <li>North Shields</li>
+                            <li>South Shields</li>
+                            <li>Newcastle</li>
+                            <li>Sunderland</li>
+                            <li>Gateshead</li>
+                            <li>And surrounding areas</li>
+                        </ul>
+                    </div>
+                    
+                    <div class="sidebar-card">
+                        <h3>Emergency Service</h3>
+                        <p>Need urgent flooring repairs? We offer emergency call-out services for urgent situations.</p>
+                        <a href="tel:07969868673" class="btn btn-secondary">Emergency Call</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section class="faq-section">
+        <div class="container">
+            <h2>Frequently Asked Questions</h2>
+            <div class="faq-grid">
+                <div class="faq-item">
+                    <h3>How long does installation take?</h3>
+                    <p>Installation time varies depending on the project size and complexity. Small rooms typically take 1-2 days, while larger projects may take 3-5 days. We'll provide a detailed timeline during consultation.</p>
+                </div>
+                <div class="faq-item">
+                    <h3>Do you provide free quotes?</h3>
+                    <p>Yes, we provide completely free consultations and quotes. Our expert team will visit your property, assess your needs, and provide a detailed, no-obligation quote.</p>
+                </div>
+                <div class="faq-item">
+                    <h3>What areas do you serve?</h3>
+                    <p>We primarily serve North Shields, South Shields, Newcastle, Sunderland, Gateshead, and surrounding areas in Tyne & Wear. Contact us to confirm coverage for your specific location.</p>
+                </div>
+                <div class="faq-item">
+                    <h3>Do you offer warranties?</h3>
+                    <p>Yes, all our products come with manufacturer warranties, and we provide our own workmanship guarantee. We'll explain all warranty details during your consultation.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="cta-section">
+        <div class="container">
+            <div class="cta-content">
+                <h2>Ready to Transform Your Space?</h2>
+                <p>Don't wait - get your free consultation today and start your flooring project.</p>
+                <div class="cta-buttons">
+                    <a href="tel:07969868673" class="btn btn-primary">Call Now</a>
+                    <a href="gallery.html" class="btn btn-secondary">View Our Work</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <div class="footer-logo">
+                        <img src="images/durafit-logo.png" alt="DURAFIT FLOORING - Precision Flooring, Lasting Quality" class="logo-img">
+                    </div>
+                    <p>Precision Flooring, Lasting Quality</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Services</h4>
+                    <ul>
+                        <li><a href="#">Luxury Vinyl Tiles</a></li>
+                        <li><a href="#">Ceramic / Porcelain / Stone</a></li>
+                        <li><a href="#">Exterior Tiling</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Company</h4>
+                    <ul>
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="gallery.html">Gallery</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Connect</h4>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-facebook"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-linkedin"></i></a>
+                        <a href="#"><i class="fab fa-yelp"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 DURAFIT FLOORING. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
